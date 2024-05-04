@@ -1,0 +1,9 @@
+<h4>Counters</h4>
+
+@for (counter of counters(); track $index) {
+<article>
+  <span>🧮</span>
+  <span><strong>ID:</strong> {{ counter.id }}</span>
+  <span><strong>Value:</strong> {{ counter.value }}</span>
+</article>
+}
