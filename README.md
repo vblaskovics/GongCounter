@@ -15,8 +15,8 @@
 3. Install dependencies
 
 ```bash
-$> cd gc-backend
-$> go get
+$ cd gc-backend
+$ go get
 ```
 
 ### Frontend
@@ -26,20 +26,20 @@ $> go get
 2. Install dependencies
 
 ```bash
-$> cd gc-frontend
-$> npm run install
+$ cd gc-frontend
+$ npm run install
 ```
 
 ## Run in dev mode
 
 ### Inside gc-backend folder
 ```bash
-$> go run .
+$ go run .
 ```
 
 ### Inside gc-frontend folder
 ```bash
-$> npm run start
+$ npm run start
 ```
 
 
